@@ -1,6 +1,5 @@
 import React, { forwardRef } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { ThumbUpIcon } from "@heroicons/react/solid";
 
 const Thumbnail = forwardRef(({ result }, ref) => {
@@ -37,5 +36,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
     </div>
   );
 });
+
+Thumbnail.displayName = 'thumbnail';
 
 export default Thumbnail;
