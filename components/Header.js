@@ -24,6 +24,7 @@ const Header = () => {
       <Image
         className="object-contain"
         src="https://links.papareact.com/ua6"
+        alt="hulu-logo"
         width={200}
         height={100}
       />
